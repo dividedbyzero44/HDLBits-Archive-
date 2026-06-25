@@ -1,4 +1,4 @@
-#Problem Statement
+**Problem Statement**
 
 We're going to start with a small bit of HDL to get familiar with the interface used by HDLBits. Here's the description of the circuit you need to build for this exercise:
 
