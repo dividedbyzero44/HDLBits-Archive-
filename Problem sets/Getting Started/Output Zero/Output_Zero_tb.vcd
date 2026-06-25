@@ -1,0 +1,24 @@
+$date
+	Thu Jun 25 20:41:54 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module Output_Zero_tb $end
+$var wire 1 ! zero $end
+$scope module dut $end
+$var wire 1 ! zero $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0!
+$end
+#1000
