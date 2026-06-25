@@ -1,0 +1,32 @@
+#! /c/Source/iverilog-install/bin/vvp
+:ivl_version "12.0 (devel)" "(s20150603-1539-g2693dd32b)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision - 12;
+:vpi_module "C:\iverilog\lib\ivl\system.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_sys.vpi";
+:vpi_module "C:\iverilog\lib\ivl\vhdl_textio.vpi";
+:vpi_module "C:\iverilog\lib\ivl\v2005_math.vpi";
+:vpi_module "C:\iverilog\lib\ivl\va_math.vpi";
+S_000001c5efcd6cc0 .scope module, "Getting_Started_tb" "Getting_Started_tb" 2 3;
+ .timescale -9 -12;
+L_000001c5efd17838 .functor BUFT 1, C4<1>, C4<0>, C4<0>, C4<0>;
+v000001c5efca3280_0 .net "one", 0 0, L_000001c5efd17838;  1 drivers
+S_000001c5efca2510 .scope module, "dut" "Getting_Started" 2 5, 3 1 0, S_000001c5efcd6cc0;
+ .timescale 0 0;
+    .port_info 0 /OUTPUT 1 "one";
+v000001c5efca26a0_0 .net "one", 0 0, L_000001c5efd17838;  alias, 1 drivers
+    .scope S_000001c5efcd6cc0;
+T_0 ;
+    %vpi_call 2 8 "$dumpfile", "Getting_started_tb.vcd" {0 0 0};
+    %vpi_call 2 9 "$dumpvars", 32'sb00000000000000000000000000000000, S_000001c5efcd6cc0 {0 0 0};
+    %delay 1000, 0;
+    %vpi_call 2 12 "$display", v000001c5efca3280_0 {0 0 0};
+    %vpi_call 2 13 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "Getting_Started_tb.v";
+    "Getting_Started.v";
