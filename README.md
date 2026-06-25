@@ -1,4 +1,4 @@
-# HDLBits-Archive-
+# HDLBits-Archive
 
 Solving problems on **https://hdlbits.01xz.net/wiki/Problem_sets** using code editor *vsc*, each problem folder will include code, testbench & simulation.
 </br>
