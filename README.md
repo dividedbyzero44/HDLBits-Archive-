@@ -1,4 +1,4 @@
-# HDLBits-Archive
+<h1> HDLBits-Archive <img src="https://img.shields.io/static/v1.svg?label=%E2%AD%90&message=If%20Useful&color=blue"> </h1>
 
 <p align="center">
   <a href="https://hdlbits.01xz.net/wiki/Main_Page">
