@@ -13,4 +13,4 @@ Solving problems on **https://hdlbits.01xz.net/wiki/Problem_sets**, each problem
 
 - 🛠️*Tool using*: icarus verilog, gtkwave, visual studio code, window(os).
 ## For submit on hdlbits
-- Go to the folder FSH on each problem to see the code and the wave form for the site.
+- Go to the folder FSH on each problem to see the code for the site and the wave form of the code.
