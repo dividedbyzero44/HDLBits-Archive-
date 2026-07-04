@@ -1,5 +1,11 @@
 # HDLBits-Archive
 
+<p align="center">
+  <a href="https://hdlbits.01xz.net/wiki/Main_Page">
+    <img src="https://hdlbits.01xz.net/images/logo270.png" alt="Logo" width="70" height="70">
+  </a> 
+</p>
+
 Solving problems on **https://hdlbits.01xz.net/wiki/Problem_sets**, each problem folder will include code, testbench & simulation.
 </br>
 
