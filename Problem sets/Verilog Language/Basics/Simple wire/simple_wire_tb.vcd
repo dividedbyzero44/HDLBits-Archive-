@@ -1,0 +1,29 @@
+$date
+	Mon Jul 06 16:35:25 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module simple_wire_tb $end
+$var wire 16 ! out [15:0] $end
+$var reg 16 " in [15:0] $end
+$scope module dut $end
+$var wire 16 # in [15:0] $end
+$var wire 16 $ out [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b110110000 $
+b110110000 #
+b110110000 "
+b110110000 !
+$end
+#1000
